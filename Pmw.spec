@@ -5,10 +5,10 @@ Version:	1.2
 Release:	1
 License:	MIT
 Group:		Development/Languages/Python
-Url:		http://pmw.sourceforge.net/
 Source0:	http://download.sourceforge.net/pmw/%{name}.%{version}.tar.gz
 # Source0-md5:	75c49c30595217c8d9376c36aa5426aa
 Patch0:		%{name}-env-location.patch
+URL:		http://pmw.sourceforge.net/
 Requires:	python-tkinter
 Requires:	python
 Buildarch:	noarch
@@ -25,15 +25,12 @@ widgets, paned widgets, scrolled widgets and dialog windows.
 Pmw jest zestawem narzêdzi do budowania komponentów wysokiego poziomu
 dla Pythona korzystaj±c z modu³u Tkinter. Zawiera zestaw podstawowych
 klas i bibliotek przeno¶nych i rozszerzalnych mega-komponentów.
-Zawiera notesty, comboboxy, komponenty wybierania, panele, przesuwane
+Zawiera notesy, comboboksy, komponenty wybierania, panele, przesuwane
 i okna dialogowe.
-
 
 %prep
 %setup -q -n %{name}
 %patch0
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
