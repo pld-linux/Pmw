@@ -7,6 +7,7 @@ License:	MIT
 Group:		Development/Languages/Python
 Url:		http://pmw.sourceforge.net/
 Source0:	http://download.sourceforge.net/pmw/%{name}.%{version}.tar.gz
+# Source0-md5:	75c49c30595217c8d9376c36aa5426aa
 Patch0:		%{name}-env-location.patch
 Requires:	python-tkinter
 Requires:	python
