@@ -37,9 +37,9 @@ i okna dialogowe.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{py_sitescriptdir}/%{name}
-cp -r . $RPM_BUILD_ROOT/%{py_sitescriptdir}/%{name}
-rm -rf $RPM_BUILD_ROOT/%{py_sitescriptdir}/%{name}/%{name}*/doc
+install -d $RPM_BUILD_ROOT%{py_sitescriptdir}/%{name}
+cp -r . $RPM_BUILD_ROOT%{py_sitescriptdir}/%{name}
+rm -rf $RPM_BUILD_ROOT%{py_sitescriptdir}/%{name}/%{name}*/doc
 
 %clean
 rm -rf $RPM_BUILD_ROOT
