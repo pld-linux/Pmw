@@ -2,7 +2,7 @@ Summary:	Python toolkit for building compound Tkinter widgets.
 Summary(pl):	Zestaw narzêdzi dla Pythona do budowania komponentów Tkinter
 Name:		Pmw
 Version:	1.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	http://download.sourceforge.net/pmw/%{name}.%{version}.tar.gz
