@@ -2,7 +2,7 @@
 +++ ./Pmw_1_2/tests/ManualTests.py	2004-10-03 02:07:24.680271000 +0200
 @@ -1,4 +1,4 @@
 -#!/bin/env python
-+#!/usr/bin/env python
++#!/usr/bin/python
  
  # This is a rough collection of tests that can not be automated.
  # To add a new test, create a function with name ending in '_test'.
