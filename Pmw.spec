@@ -1,5 +1,5 @@
 Summary:	Python toolkit for building compound Tkinter widgets.
-Summary(pl):	Zestaw narzêdzi dla Pythona do budowania komponentów Tkinter
+Summary(pl.UTF-8):   Zestaw narzÄ™dzi dla Pythona do budowania komponentÃ³w Tkinter
 Name:		Pmw
 Version:	1.2
 Release:	2
@@ -21,10 +21,10 @@ library of flexible and extensible megawidgets built on this
 foundation. These megawidgets include notebooks, comboboxes, selection
 widgets, paned widgets, scrolled widgets and dialog windows.
 
-%description -l pl
-Pmw jest zestawem narzêdzi do budowania komponentów wysokiego poziomu
-dla Pythona korzystaj±c z modu³u Tkinter. Zawiera zestaw podstawowych
-klas i bibliotek przeno¶nych i rozszerzalnych mega-komponentów.
+%description -l pl.UTF-8
+Pmw jest zestawem narzÄ™dzi do budowania komponentÃ³w wysokiego poziomu
+dla Pythona korzystajÄ…c z moduÅ‚u Tkinter. Zawiera zestaw podstawowych
+klas i bibliotek przenoÅ›nych i rozszerzalnych mega-komponentÃ³w.
 Zawiera notesy, comboboksy, komponenty wybierania, panele, przesuwane
 i okna dialogowe.
 
