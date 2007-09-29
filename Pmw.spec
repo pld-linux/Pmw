@@ -1,16 +1,16 @@
-Summary:	Python toolkit for building compound Tkinter widgets.
+Summary:	Python toolkit for building compound Tkinter widgets
 Summary(pl.UTF-8):	Zestaw narzędzi dla Pythona do budowania komponentów Tkinter
 Name:		Pmw
-Version:	1.2
-Release:	2
+Version:	1.3
+Release:	1
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	http://download.sourceforge.net/pmw/%{name}.%{version}.tar.gz
-# Source0-md5:	75c49c30595217c8d9376c36aa5426aa
+# Source0-md5:	fc9affbcb1b2b86930464350ac2f0a1d
 Patch0:		%{name}-env-location.patch
 URL:		http://pmw.sourceforge.net/
-Requires:	python-tkinter
 Requires:	python
+Requires:	python-tkinter
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,15 +22,15 @@ foundation. These megawidgets include notebooks, comboboxes, selection
 widgets, paned widgets, scrolled widgets and dialog windows.
 
 %description -l pl.UTF-8
-Pmw jest zestawem narzędzi do budowania komponentów wysokiego poziomu
-dla Pythona korzystając z modułu Tkinter. Zawiera zestaw podstawowych
-klas i bibliotek przenośnych i rozszerzalnych mega-komponentów.
-Zawiera notesy, comboboksy, komponenty wybierania, panele, przesuwane
-i okna dialogowe.
+Pmw jest zestawem narzędzi do budowania komponentów wysokiego
+poziomu dla Pythona korzystając z modułu Tkinter. Zawiera zestaw
+podstawowych klas i bibliotek przenośnych i rozszerzalnych
+mega-komponentów. Zawiera notesy, comboboksy, komponenty wybierania,
+panele przesuwane i okna dialogowe.
 
 %prep
-%setup -q -n %{name}
-%patch0
+%setup -q -n src/%{name}
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
