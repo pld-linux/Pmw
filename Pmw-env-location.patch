@@ -1,5 +1,5 @@
---- ./Pmw_1_2/tests/ManualTests.py~	2002-09-04 14:38:39.000000000 +0200
-+++ ./Pmw_1_2/tests/ManualTests.py	2004-10-03 02:07:24.680271000 +0200
+--- Pmw/Pmw_1_3/tests/ManualTests.py~	2007-08-06 08:59:34.000000000 +0200
++++ Pmw/Pmw_1_3/tests/ManualTests.py	2007-09-29 02:15:19.000000000 +0200
 @@ -1,4 +1,4 @@
 -#!/bin/env python
 +#!/usr/bin/python
