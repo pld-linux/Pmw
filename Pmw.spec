@@ -1,12 +1,12 @@
 Summary:	Python toolkit for building compound Tkinter widgets
 Summary(pl.UTF-8):	Zestaw narzędzi dla Pythona do budowania komponentów Tkinter
 Name:		Pmw
-Version:	1.3
+Version:	1.3.2
 Release:	1
 License:	MIT
 Group:		Development/Languages/Python
-Source0:	http://download.sourceforge.net/pmw/%{name}.%{version}.tar.gz
-# Source0-md5:	fc9affbcb1b2b86930464350ac2f0a1d
+Source0:	http://dl.sourceforge.net/pmw/%{name}.%{version}.tar.gz
+# Source0-md5:	7f30886fe9885ab3cf85dac6ce1fbda5
 Patch0:		%{name}-env-location.patch
 URL:		http://pmw.sourceforge.net/
 Requires:	python
@@ -29,7 +29,7 @@ mega-komponentów. Zawiera notesy, comboboksy, komponenty wybierania,
 panele przesuwane i okna dialogowe.
 
 %prep
-%setup -q -n src/%{name}
+%setup -q -n %{name}.%{version}/src/%{name}
 %patch0 -p1
 
 %install
