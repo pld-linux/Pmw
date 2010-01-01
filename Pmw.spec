@@ -11,7 +11,7 @@ Patch0:		%{name}-env-location.patch
 URL:		http://pmw.sourceforge.net/
 Requires:	python
 Requires:	python-tkinter
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
