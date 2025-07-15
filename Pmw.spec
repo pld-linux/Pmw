@@ -30,7 +30,7 @@ panele przesuwane i okna dialogowe.
 
 %prep
 %setup -q -n %{name}.%{version}/src/%{name}
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
